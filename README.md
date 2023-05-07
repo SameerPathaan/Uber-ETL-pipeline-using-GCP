@@ -22,4 +22,7 @@ This Dataset contains the information related to Uber like trip_distance, passen
 
 **Google Looker Studio:** It is a cloud-based business intelligence and analytics platform provided by Google Cloud Platform. Looker Studio allows users to create and share data visualizations, reports, and dashboards using a drag-and-drop interface. It provides advanced analytics features such as predictive modeling and machine learning integration. Looker Studio also supports collaboration and sharing of data and reports among team members.
 
-Project Execution Flow:
+### Project Execution Flow:
+Raw Data(Uber_data.csv) --> Google CLoud Storage --> ETL ( Mage [uber_data_load -- uber_transform_load -- uber_bigquery_load] ) --> Google BigQuery (Data Warehouse)  --> Looker Studio (Analytics)
+
+
