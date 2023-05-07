@@ -1,4 +1,5 @@
 # Uber-ETL-pipeline-using-GCP
+A Data Analytics Project applying ETL logic on Uber data using Google Cloud Platform
 
 ### Introduction:
 In this project, i have built an ETL Pipeline using Uber data. The pipeline will retrieve the data from the .csv file stored in Google Cloud Storage  which is then loaded to Mage and several transofrmations are applied on the raw data ultimately loading into the Google BigQuery for analytics.
